@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/Fruit.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row page-color">
+            <div class="col-md-3">
+                <div class="page01-left-dowm-list">
+                    <h4 class="page01-left-up">
+            <span>
+               VERTICAL MEGAMENU
+            <i class="fa fa-bars pull-left" aria-hidden="true"></i>
+            </span>
+                    </h4>
+                    <div class="panel-group">
+                        <div class="pannel">
+                            <div href="#fisrt"data-toggle="collapse">
+                                <div class="page01-left-item">
+                                    <span class="span-h">FOOD</span>
+                                    <i  class="fa fa-star pull-left"></i>
+                                    <i >+</i>
+                                </div>
+                            </div>
+                            <div id="fisrt" class="collapse">二级菜单</div>
+                        </div>
+                        <div class="panel">
+                            <div href="#second"data-toggle="collapse" >
+                                <div class="page01-left-item">
+                                    <span class="span-h">ELECTRICAL LIFE</span>
+                                    <i  class="fa fa-star pull-left"></i>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </div>
+                            </div>
+                            <div id="second" class="collapse">二级菜单</div>
+                        </div>
+                        <div class="panel">
+                            <div href="#three"data-toggle="collapse" >
+                                <div class="page01-left-item">
+                                    <span class="span-h">FURNITURE</span>
+                                    <i  class="fa fa-star pull-left"></i>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </div>
+
+                            </div>
+                            <div id="three" class="collapse">二级菜单</div>
+                        </div>
+                        <div class="panel">
+                            <div href="#four"data-toggle="collapse" >
+                                <div class="page01-left-item">
+                                    <span class="span-h">JEWELRY</span>
+                                    <i  class="fa fa-star pull-left"></i>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </div>
+                            </div>
+                            <div id="four" class="collapse">二级菜单</div>
+                        </div>
+                        <div class="panel">
+                            <div href="#five"data-toggle="collapse" >
+                                <div class="page01-left-item">
+                                    <span class="span-h">ACCESSORIES - SUPPLIES</span>
+                                    <i  class="fa fa-star pull-left"></i>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </div>
+                            </div>
+                            <div id="five" class="collapse">二级菜单</div>
+                        </div>
+                        <div class="panel">
+                            <div href="#six"data-toggle="collapse" >
+                                <div class="page01-left-item">
+                                    <span class="span-h">HEALTH CARE</span>
+                                    <i  class="fa fa-star pull-left"></i>
+                                    <i class="fa fa-angle-right pull-right"></i>
+                                </div>
+                            </div>
+                            <div id="six" class="collapse">二级菜单</div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-9 col-xs-12">
+                <!--上盒子-->
+               <div class="row section-bg banner-up">
+                   <div class="fruit-up">
+                       <img src="images/14-category_default.jpg" class="img-responsive">
+                   </div>
+               </div>
+                    <p class="font-style-p font-style-s ">
+                        Cras eu arcu vel enim luctus congue id ac risus. Nullam at adipiscing metus. Cras metus nisl, semper quis urna in, interdum condimentum neque.</p>
+                <!--下盒子-->
+                <div class="row section-bg banner-up">
+                   <div class="detailbox-up col-md-12 col-xs-12 hidden-xs">
+                       <div class="detail-title-font pull-left ">SUBCATEGORIES :</div>
+                       <ul class="list-inline detail-up-title font-style-s">
+                           <li><a href="#">Make up</a></li>
+                           <li><a href="#">Cleanser</a></li>
+                           <li><a href="#">Skin Care</a></li>
+                           <li><a href="#">Hair Care</a></li>
+                           <li><a href="#">Perfume</a></li>
+                           <li><a href="#">Accessories</a></li>
+
+                       </ul>
+                   </div>
+                    <div class="detailbox-middle col-xs-12">
+                        <div class="col-md-9 col-xs-9">
+                            <div class="pull-left">
+                                <ul class="list-inline hidden-xs">
+                                    <span class="font-style-p">View</span>
+                                    <li>
+                                        <span class="fa fa-th-large span-boder" aria-hidden="true" data-toggle="tab" href="#grid"></span>
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-th-list span-boder" aria-hidden="true"  data-toggle="tab" href="#list"></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="pull-right">
+                                <span class="font-style-s font-style-p">Sort by</span>
+                                <select class="span-boder ">
+                                    <option>--</option>
+                                    <option>Price: Lowest first</option>
+                                    <option>Price: Highest first</option>
+                                    <option>Product Name: A to Z</option>
+                                    <option>Product Name: Z to A</option>
+                                    <option>Reference: Lowest first</option>
+                                    <option>Reference: Highest first</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-3">
+                            <button class="compare-btn pull-right">COMPARE</button>
+                        </div>
+                    </div>
+                    <div class="detailbox-down tab-content">
+                        <ul class="list-box tab-pane fade in active " id="list">
+                            <li>
+                                <div class="col-md-4 col-xs-12">
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/cm-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-8 col-xs-12">
+                                    <p class="detail-title-font" >Aliquam ac lectus</p>
+                                    <p class="font-style-p">
+                                        Cras eu arcu vel enim luctus congue id ac risus. Nullam at adipiscing metus. Cras metus nisl, semper quis urna in, interdum condimentum neque.
+                                    </p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="font-style-p"> (0 Reviews)</span>
+                                    </div>
+                                    <div>
+                                        <span class="block-box Grey"></span>
+                                        <span class="block-box green"></span>
+                                        <span class="block-box yellow"></span>
+                                    </div>
+                                    <h6 class="product-price" >$46.50</h6>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="col-md-4">
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/pt-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="detail-title-font" >Integer velit mauris</p>
+                                    <p class="font-style-p">
+                                        Integer velit mauris, dictum quis pellentesque quis, faucibus ultricies magna. Quisque aliquet, sapien ac porta pharetra, lectus nunc imperdiet nulla, ullamcorper sodales nibh lorem vitae nisl.
+                                    </p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="font-style-p"> (0 Reviews)</span>
+                                    </div>
+                                    <div>
+                                        <span class="block-box Grey"></span>
+                                        <span class="block-box green"></span>
+                                        <span class="block-box yellow"></span>
+                                    </div>
+                                    <h6 class="product-price" >$25.00</h6>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="col-md-4">
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/tz-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="detail-title-font" >Etiam non auctor</p>
+                                    <p class="font-style-p">
+                                        Maecenas ultricies tellus sed convallis luctus. Proin vitae condimentum purus. Etiam nec accumsan erat.                                    </p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="font-style-p"> (0 Reviews)</span>
+                                    </div>
+                                    <div>
+                                        <span class="block-box Grey"></span>
+                                        <span class="block-box green"></span>
+                                        <span class="block-box yellow"></span>
+                                    </div>
+                                    <h6 class="product-price" >$54.65</h6>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="col-md-4">
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/jz-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="detail-title-font" >Etiam non auctor</p>
+                                    <p class="font-style-p">
+                                        Maecenas ultricies tellus sed convallis luctus. Proin vitae condimentum purus. Etiam nec accumsan erat.                                    </p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="font-style-p"> (0 Reviews)</span>
+                                    </div>
+                                    <div>
+                                        <span class="block-box Grey"></span>
+                                        <span class="block-box green"></span>
+                                        <span class="block-box yellow"></span>
+                                    </div>
+                                    <h6 class="product-price" >$54.65</h6>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="col-md-4">
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/xz-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="detail-title-font" >Curabitur ultricies</p>
+                                    <p class="font-style-p">
+                                        Pellentesque a nulla quis dui viverra varius. Curabitur ultricies ipsum vitae dapibus gravida. Duis ultrices pharetra quam non laoreet. Vestibulum id tortor a lorem suscipit aliquam. In ullamcorper...                                    </p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="font-style-p"> (0 Reviews)</span>
+                                    </div>
+                                    <div>
+                                        <span class="block-box Grey"></span>
+                                        <span class="block-box green"></span>
+                                        <span class="block-box yellow"></span>
+                                    </div>
+                                    <h6 class="product-price" >$3.00</h6>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="col-md-4">
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/hsl-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="detail-title-font" >Curabitur ultricies</p>
+                                    <p class="font-style-p">
+                                        Pellentesque a nulla quis dui viverra varius. Curabitur ultricies ipsum vitae dapibus gravida. Duis ultrices pharetra quam non laoreet. Vestibulum id tortor a lorem suscipit aliquam. In ullamcorper...                                    </p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="font-style-p"> (0 Reviews)</span>
+                                    </div>
+                                    <div>
+                                        <span class="block-box Grey"></span>
+                                        <span class="block-box green"></span>
+                                        <span class="block-box yellow"></span>
+                                    </div>
+                                    <h6 class="product-price" >$3.00</h6>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="col-md-4">
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/lz-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="detail-title-font" >Nam vulputate magna</p>
+                                    <p class="font-style-p">
+                                        Sed vestibulum, ligula eu rhoncus sodales, lectus leo vulputate justo, in pharetra arcu felis molestie dui. Ut mattis risus ipsum, vel luctus tortor tristique vestibulum.                                    </p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="font-style-p"> (0 Reviews)</span>
+                                    </div>
+                                    <div>
+                                        <span class="block-box Grey"></span>
+                                        <span class="block-box green"></span>
+                                        <span class="block-box yellow"></span>
+                                    </div>
+                                    <h6 class="product-price" >$99.99</h6>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="col-md-4">
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/nht-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="detail-title-font" >Nulla facilisi</p>
+                                    <p class="font-style-p">
+                                        Cras eu arcu vel enim luctus congue id ac risus. Nullam at adipiscing metus. Cras metus nisl, semper quis urna in, interdum condimentum neque.                                    </p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="font-style-p"> (0 Reviews)</span>
+                                    </div>
+                                    <div>
+                                        <span class="block-box Grey"></span>
+                                        <span class="block-box green"></span>
+                                        <span class="block-box yellow"></span>
+                                    </div>
+                                    <h6 class="product-price" >$46.50</h6>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="col-md-4">
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/jz-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-md-8">
+                                    <p class="detail-title-font" >Maecenas ultricies</p>
+                                    <p class="font-style-p">
+                                        Mauris sed elit quis lacus convallis accumsan. Maecenas ultricies tellus sed convallis luctus. Proin vitae condimentum purus. Etiam nec accumsan erat.                                    </p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="font-style-p"> (0 Reviews)</span>
+                                    </div>
+                                    <div>
+                                        <span class="block-box Grey"></span>
+                                        <span class="block-box green"></span>
+                                        <span class="block-box yellow"></span>
+                                    </div>
+                                    <h6 class="product-price" >$154.00</h6>
+                                </div>
+
+                            </li>
+
+                        </ul>
+                            <div class="grip-box tab-pane" id="grid">
+                                <div class="col-md-3 grip-box-item">
+                                    <p class="detail-title-font">Aliquam ac lectus</p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                    </div>
+                                    <h6 class="product-price" >$46.50</h6>
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/cm-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 grip-box-item">
+                                    <p class="detail-title-font">Integer velit mauris</p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                    </div>
+                                    <h6 class="product-price" >$25.00</h6>
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/pt-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 grip-box-item">
+                                    <p class="detail-title-font">Etiam non auctor</p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                    </div>
+                                    <h6 class="product-price" >$54.65</h6>
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/tz-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 grip-box-item">
+                                    <p class="detail-title-font">Etiam non auctor</p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                    </div>
+                                    <h6 class="product-price" >$54.65</h6>
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/jz-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 grip-box-item">
+                                    <p class="detail-title-font">Curabitur ultricies</p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                    </div>
+                                    <h6 class="product-price" >$3.00</h6>
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/xz-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 grip-box-item">
+                                    <p class="detail-title-font">Curabitur ultricies</p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                    </div>
+                                    <h6 class="product-price" >$3.00</h6>
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/hsl-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 grip-box-item">
+                                    <p class="detail-title-font">Nam vulputate magna</p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                    </div>
+                                    <h6 class="product-price" >$99.99</h6>
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/lz-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 grip-box-item">
+                                    <p class="detail-title-font">Nulla facilisi</p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                    </div>
+                                    <h6 class="product-price" >$46.50</h6>
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/nht-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 grip-box-item">
+                                    <p class="detail-title-font">Maecenas ultricies</p>
+                                    <div class="glyphicon-star-box">
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star yellow"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                        <span class="fa fa-star-o empty"></span>
+                                    </div>
+                                    <h6 class="product-price" >$154.00</h6>
+                                    <div class="img-box">
+                                        <div class="current-new"><span>new</span></div>
+                                        <img src="images/nm-home_default.jpg"  class="img-responsive">
+                                        <div class="zezhao">
+                                            <div class="vertical">
+                                                <div class="cicle col-md-12">
+                                                    <div class="cicle-logo eye" >
+                                                        <span class="fa fa-eye"></span>
+                                                    </div>
+                                                    <div class="cicle-logo heart">
+                                                        <span class="fa fa-heart"></span>
+                                                    </div>
+                                                    <div class="cicle-logo retweet">
+                                                        <span class="fa fa-retweet"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="taggle col-md-12">
+                                                    <div class="toggle-logo" >
+                                                        <span>ADD TO CART</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    $(function () {
+        $(".toggle-logo").tooltip({
+            title:'ADD TO CART',placement:'top'
+        });
+        $(".heart").tooltip({
+            title:'heart',placement:'top'
+        });
+        $(".eye").tooltip({
+            title:'eye',placement:'top'
+        });
+
+        $(".retweet").tooltip({
+            title:'retweet',placement:'top'
+        });
+    })
+</script>

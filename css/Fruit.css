@@ -1,0 +1,217 @@
+/*公共的类*/
+body{
+    background: #e8e8e8;
+}
+ul li{
+    list-style: none;
+}
+.section-bg{
+    background: #fff;
+}
+.font-style-p{
+    color: #969696;
+}
+.product-price {
+    color: #f8694d;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.font-style-s{
+   font-size: 12px;
+}
+/*index样式*/
+.banner-up{
+    margin-bottom: 20px;
+}
+/*下盒子头部上*/
+.banner-bottom{
+    margin-bottom: 30px;
+}
+.detailbox-up{
+    padding: 20px;
+}
+.detail-up-title li{
+    position: relative;
+    margin-left: 15px;
+}
+.detail-up-title li a{
+    color: #666;
+    padding-left: 5px;
+}
+.detail-up-title li:before{
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #171717;
+    /*border: 1px solid #000;*/
+    display: block;
+    position: absolute;
+    top:35%;
+    left: 0;
+
+}
+/*下盒子标题字体*/
+.detail-title-font{
+    font-family: "Hind", sans-serif;
+    font-weight:500;
+    font-size: 13px;
+    color: #000;
+}
+/*下盒子头部中*/
+.detailbox-middle{
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    /*border-bottom: 1px solid #ccc;*/
+    clear: both;
+}
+.detailbox-middle .span-boder{
+    border: 1px solid #ccc;
+    padding: 7px;
+}
+.detailbox-middle .list-inline{
+    padding-right: 0;
+}
+.detailbox-middle .compare-btn{
+    color: #ccc;
+    background:#666;
+    padding: 5px 10px;
+    border: none;
+}
+/*下盒子头部下*/
+.detailbox-down{
+    clear: both;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+.detailbox-down .img-box{
+    height: 50%;
+    position: relative;
+}
+/*new*/
+.current-new{
+    width: 43px;
+    height: 45px;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-family: Comic Sans MS;
+    right: 10px;
+    top:0px;
+    background: url("../images/bg_productlabel.png") no-repeat center left transparent;
+    z-index: 999;
+}
+
+.detailbox-down ul{
+    padding: 0;
+}
+.detailbox-down .list-box li{
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+}
+.detailbox-down .grip-box{
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+}
+.detailbox-down .grip-box .grip-box-item{
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.detailbox-down .grip-box .grip-box-item:nth-child(4n){
+    border-right:none;
+}
+.detailbox-down .grip-box .grip-box-item:last-child{
+    border-right:none;
+}
+.glyphicon-star-box{
+    font-size: 12px;
+    padding: 10px 0;
+}
+.glyphicon-star-box .yellow{
+    color: #ffe00d;
+}
+.glyphicon-star-box .empty{
+    color: #ccc;
+}
+.block-box-item{
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+.block-box{
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    display: inline-block;
+}
+.block-box.yellow{
+    background: yellow; ;
+}
+.block-box.Pink {
+     background: Pink; ;
+ }
+.block-box.brown {
+    background: brown; ;
+}
+.block-box.Grey{
+    background:  Grey ;
+}
+.block-box.Black {
+    background: Black;
+}
+.block-box.Orange {
+    background:  Orange ;
+}
+.block-box.Blue {
+    background: Blue ;
+}
+.block-box.green {
+    background: green; ;
+}
+
+/*遮罩层*/
+.zezhao:hover{
+    opacity: 1;
+}
+.zezhao{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    transition: all 1s;
+    background: rgba(255,255,255,.7);
+    /*display: none;*/
+}
+.vertical{
+    padding: 30% 0;
+}
+.cicle ,.taggle{
+    display: inline-block;
+}
+
+.cicle-logo{
+    margin: 0px 10px 20px 0px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color:#f8694d ;
+    border-radius:100% ;
+    border: 2px solid #f8694d;
+    display: inline-block;
+}
+.toggle-logo{
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    color:#f8694d ;
+    border-radius:20px ;
+    border: 2px solid #f8694d;
+    display: inline-block;
+}
+/* border: 1px solid #000;*/
